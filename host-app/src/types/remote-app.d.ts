@@ -1,4 +1,4 @@
-declare module 'remote_app/Button' {
+declare module 'remoteApp/Button' {
   const Button: React.FC<{
     text: string;
     onClick?: () => void;
@@ -6,7 +6,7 @@ declare module 'remote_app/Button' {
   export default Button;
 }
 
-declare module 'remote_app/Header' {
+declare module 'remoteApp/Header' {
   const Header: React.FC;
   export default Header;
 }

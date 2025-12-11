@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import LoadingSpinner from "./LoadingSpinner";
 
-const RemoteHeader = React.lazy(() => import("remote_app/Header"));
-const RemoteButton = React.lazy(() => import("remote_app/Button"));
+const RemoteHeader = React.lazy(() => import("remoteApp/Header"));
+const RemoteButton = React.lazy(() => import("remoteApp/Button"));
 
 const RemoteComponentWrapper = () => {
   return (
